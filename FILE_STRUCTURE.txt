@@ -1,0 +1,45 @@
+📁 Credit Card Detection Project Structure
+═══════════════════════════════════════════════════════════════
+
+Cursor/                                    ← Project Root Folder
+│
+├── 📄 api.py                             ← Flask Web Server (MAIN FILE TO RUN)
+├── 📄 credit_card_detector.py            ← Detection Engine
+├── 📄 requirements.txt                   ← Python Dependencies
+├── 📄 START_HERE.bat                     ← Double-click to start (Windows)
+├── 📄 START_HERE.ps1                     ← PowerShell startup script
+│
+├── 📁 templates/                         ← HTML Templates (Flask)
+│   └── 📄 index.html                     ← Web Interface
+│
+├── 📁 static/                            ← Static Files (CSS, JS)
+│   ├── 📄 style.css                     ← Styling
+│   └── 📄 script.js                      ← JavaScript
+│
+├── 📁 __pycache__/                       ← Python Cache (Auto-generated)
+│
+├── 📄 Documentation Files:
+│   ├── 📄 README.md                      ← Main Documentation
+│   ├── 📄 QUICK_START.md                 ← Quick Start Guide
+│   ├── 📄 PROJECT_SETUP_GUIDE.md        ← Complete Setup Guide
+│   ├── 📄 WEB_APP_GUIDE.md               ← Web App Usage
+│   ├── 📄 STEP_BY_STEP_EXPLANATION.md    ← How It Works
+│   ├── 📄 CODE_WALKTHROUGH.md            ← Code Explanation
+│   └── 📄 SYSTEM_STATUS.md                ← System Status
+│
+└── 📄 Test Files:
+    ├── 📄 test_detector.py               ← Test Detection
+    ├── 📄 test_tesseract.py              ← Test Tesseract
+    └── 📄 find_tesseract.py              ← Find Tesseract Path
+
+═══════════════════════════════════════════════════════════════
+
+🎯 KEY FILES TO REMEMBER:
+
+1. START_HERE.bat          → Double-click to run (Easiest!)
+2. api.py                  → Main server file
+3. requirements.txt        → Install dependencies
+4. templates/index.html    → Web interface
+5. static/                 → CSS & JavaScript
+
+═══════════════════════════════════════════════════════════════
